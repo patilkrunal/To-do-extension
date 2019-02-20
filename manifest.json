@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "To-Do list",
+    "description": "This extension helps you to make notes !",
+    "version": "1.1",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}

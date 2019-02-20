@@ -1,0 +1,12 @@
+body{
+    background-color: gold;
+}
+input{
+    border-width: 3px;
+    color:  #0a2cc4;
+}
+#add{
+    background-color: rgb(74, 72, 219);
+    color:  #f8f8f8;
+    border-width: 3px;
+}
