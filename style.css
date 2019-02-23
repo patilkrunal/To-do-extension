@@ -1,12 +1,77 @@
-body{
-    background-color: gold;
-}
 input{
     border-width: 3px;
-    color:  #0a2cc4;
+    color:  #010202;
+    align-content: center;
+    margin: 0;
+    border: double;
+    width: 70%;
+    padding: 2px;
+    margin-left: 11%;
+    float: left;
+    font-size: 16px;
 }
-#add{
-    background-color: rgb(74, 72, 219);
-    color:  #f8f8f8;
-    border-width: 3px;
+body {
+    background: #2FA4F5;
+    background: -moz-linear-gradient(left, #2FA4F5 0%, #4C91E6 51%, #5178C5 100%);
+    background: -webkit-linear-gradient(left, #2FA4F5 0%, #4C91E6 51%, #5178C5 100%);
+    background: linear-gradient(to right, #2FA4F5 0%, #4C91E6 51%, #5178C5 100%);
+    }
+#footer{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin-left: 11%;
 }
+div.fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 300px;
+    width: 800px;
+    height: 80%;
+    border: 3px solid rgb(255, 255, 255);
+    border-left: 6px solid blue;
+    }     
+ul li:hover {
+    background: rgb(111, 196, 245);
+    }
+#titletext{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0F0444;color:  #f8f8f8;
+    text-decoration: underline solid rgb(255, 255, 255);
+    font-style: italic;
+    }
+#todo{
+    color:  #171c5c;
+    margin-left: 10%;
+}
+#add {
+    color: rgb(44, 44, 44); 
+    font-size: 17px; 
+    line-height: 8px; 
+    padding: 6px; 
+    font-family: Georgia, serif; 
+    background-color: rgb(94, 166, 214) 100%; 
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 2%;
+    }
+#add:hover{
+    background-color: #29689b;
+    color: white;
+}
+.remove{
+    position: relative;
+    left: 102px;
+    top: 2px;
+    padding: 2px 6px 2px 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.remove:hover {
+    background-color: #29689b;
+    color: white;
+    }

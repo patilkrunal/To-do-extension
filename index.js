@@ -1,4 +1,4 @@
-var password="KRUNAL";
+var password="krunal";
 var psswd=prompt("Enter the password.");
 if(password===psswd){
 
@@ -30,7 +30,7 @@ if(password===psswd){
         var todo=get_todo();
         var html='<ul>';
         for(var i=0;i<todo.length;i++){
-            html+='<li>'+todo[i]+'<button class="remove" id="'+i+'">x</button></li>';
+            html+='<li>&#10148'+todo[i]+'<button class="remove" id="'+i+'">x</button></li>';
         };
         html+='</ul>';
         document.getElementById('todo').innerHTML=html;
